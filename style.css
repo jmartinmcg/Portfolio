@@ -1,10 +1,8 @@
 
+/* Navigation Bar Styling */
 nav ul li a {
   background-color: pink;
 }
-
-
-
 nav {
   display: flex;
   flex-direction: column;
@@ -16,61 +14,29 @@ nav {
   margin-bottom: 5px;
   align-self:center;
 }
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(223, 22, 189);
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .flex-container {
-    width: 100%;
-    margin: 0px; 
-    padding: 0px;
-
-    flex-wrap: wrap;
-    
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .flex-container {
-    width: 100%;
-
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 20px;
   overflow: hidden;
-  background-color: rgb(240, 231, 231);
+  background-color:pink;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: rgb(173, 65, 65);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-right: 1px solid #bbb;
+  border-right: 1px solid pink;
+}
+li a:hover {
+  background-color: rgb(216, 119, 119);
 }
 
-li a:hover {
-  background-color: rgb(36, 1, 1);
-}
+/*Home Page Style*/
 h1 {
   color: rgb(230, 17, 219);
   font-size: 700%;
@@ -80,6 +46,8 @@ h2 {
   color: rgb(255, 0, 242);
   font-size: 350%
 }
+
+/*About Page Style*/
 .container {
   position: relative;
   width: 100%;
@@ -113,3 +81,38 @@ h2 {
   background-color: rgb(182, 61, 172);
   color: white;
 }
+
+
+/* Blog Page Style */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(223, 22, 189);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .flex-container {
+    width: 100%;
+    margin: 0px; 
+    padding: 0px;
+
+    flex-wrap: wrap;
+    
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .flex-container {
+    width: 100%;
+
+
+
