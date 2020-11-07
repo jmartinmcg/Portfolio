@@ -1,3 +1,22 @@
+
+nav ul li a {
+  background-color: pink;
+}
+
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  height: 150px;
+  width: 150px; 
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  align-self:center;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
