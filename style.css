@@ -31,8 +31,9 @@ ul {
   background-color:#358e9d;
 }
 li {
- float: left;
-  /* display:flex; */
+
+  float: left; */
+
 }
 li a {
   display: flex;
@@ -67,7 +68,8 @@ nav ul { */
   /* flex-wrap: wrap; */
   justify-content:stretch;
   margin: inherit;
-  font-size: 40px;
+
+  font-size: 2.5em;
 }
 
 nav ul li a { */
@@ -106,8 +108,9 @@ h2 {
 }
 
 
-
 /*About Page Style*/
+
+
 /* .AboutPageImage { */
   position: relative;
   width: 100%;
@@ -115,13 +118,13 @@ h2 {
 }
 
 /* .AboutPageImage img { */
-  width: 241%;
-  height: 250%;
+  width: 70%;
+  height: 70%;
 }
 
 .AboutPageImage .btn {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -147,15 +150,13 @@ h2 {
   width: 15%;
   padding: 50px 40px;
   
-
-
 }
 body {
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box; */
 }
 
 /* Style inputs */
