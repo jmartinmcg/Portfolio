@@ -31,15 +31,17 @@ ul {
   background-color:#358e9d;
 }
 li {
-  /* float: left; */
+ float: left;
+  /* display:flex; */
 }
 li a {
   display: flex;
   color: rgb(173, 65, 65);
   text-align: center;
+  font-size: 20px;
   padding: 14px 16px;
   text-decoration: none;
-  border-right: 1px solid pink;
+  /* border-right: 1px solid pink; */
 }
 li a:hover {
   background-color: rgb(216, 119, 119);
@@ -62,13 +64,13 @@ li a:hover {
 
 nav ul { */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content:stretch;
   margin: inherit;
+  font-size: 40px;
 }
 
 nav ul li a { */
-  font-size: 300%;
   font-family: 'Norwester', sans-serif;
   color: #E0ECE4;
   margin: 5px;
