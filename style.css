@@ -1,11 +1,17 @@
 /* All pages styling */
 body {
   background-color: #f3f0f0;
+  margin: 0;
+  padding: 0;
 }
+
+
 
 /* Navigation Bar Styling */
 nav ul li a {
   background-color: #358e9d;
+  width: 100%;
+  
 
 }
 nav {
@@ -22,16 +28,13 @@ nav {
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 20px;
-  overflow: hidden;
   background-color:#358e9d;
 }
 li {
-  float: left;
+  /* float: left; */
 }
 li a {
-  display: block;
+  display: flex;
   color: rgb(173, 65, 65);
   text-align: center;
   padding: 14px 16px;
@@ -43,16 +46,12 @@ li a:hover {
 }
 
 /* Mobile View */
-@media only screen and (min-device-width: 220px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 220px) and (max-device-width: 767px) { */
 
 /* Mobile Nav bar View */
-nav {
-  display: flex;
-
-}
 
 .logo {
- 
+
   height: 350px;
   width: 350px;
   align-self: center;
@@ -61,15 +60,14 @@ nav {
   margin-bottom: 5px;
 }
 
-nav ul {
+nav ul { */
   display: flex;
   flex-wrap: wrap;
   justify-content:stretch;
   margin: inherit;
-  padding: 20px;
 }
 
-nav ul li a {
+nav ul li a { */
   font-size: 300%;
   font-family: 'Norwester', sans-serif;
   color: #E0ECE4;
@@ -108,13 +106,13 @@ h2 {
 
 
 /*About Page Style*/
-.AboutPageImage {
+/* .AboutPageImage { */
   position: relative;
   width: 100%;
   max-width: 400px;
 }
 
-.AboutPageImage img {
+/* .AboutPageImage img { */
   width: 241%;
   height: 250%;
 }
@@ -150,7 +148,65 @@ h2 {
 
 
 }
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
 
+* {
+  /* box-sizing: border-box; */
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 
 
 
@@ -162,14 +218,14 @@ h2 {
 
 body {
   font-family: Arial;
-  padding: 20px;
+  /* padding: 20px; */
   background: #f1f1f1;
 }
 
 /* Header/Blog Title */
-.header {
+.blogtxt {
   padding: 30px;
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
   background: white;
 }
