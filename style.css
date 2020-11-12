@@ -1,11 +1,17 @@
+/* All pages styling */
+body {
+  background-color: #f3f0f0;
+}
 
 /* Navigation Bar Styling */
 nav ul li a {
-  background-color: pink;
+  background-color: #358e9d;
+
 }
 nav {
   display: flex;
   flex-direction: column;
+  width: 100%
 }
 .logo {
   height: 150px;
@@ -19,7 +25,7 @@ ul {
   margin: 0;
   padding: 20px;
   overflow: hidden;
-  background-color:pink;
+  background-color:#358e9d;
 }
 li {
   float: left;
@@ -36,33 +42,87 @@ li a:hover {
   background-color: rgb(216, 119, 119);
 }
 
+/* Mobile View */
+@media only screen and (min-device-width: 220px) and (max-device-width: 767px) {
+
+/* Mobile Nav bar View */
+nav {
+  display: flex;
+
+}
+
+.logo {
+ 
+  height: 350px;
+  width: 350px;
+  align-self: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:stretch;
+  margin: inherit;
+  padding: 20px;
+}
+
+nav ul li a {
+  font-size: 300%;
+  font-family: 'Norwester', sans-serif;
+  color: #E0ECE4;
+  margin: 5px;
+  text-decoration: none;
+  
+}
+
 /*Home Page Style*/
+
+#bkgrndimg {
+  max-width: 100%;
+  height: auto; 
+}
 h1 {
   color: rgb(230, 17, 219);
   font-size: 700%;
   border: rgb(36, 1, 1);
+  font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
   color: rgb(255, 0, 242);
   font-size: 350%
 }
 
+#frontpgtext {
+  display: flex;
+  flex-direction: column;
+  Width: 100%;
+  text-align: center;
+  color: rgb(230, 17, 219);
+  style="text-shadow:1px 1px 0;ß
+
+}
+
+
+
 /*About Page Style*/
-.container {
+.AboutPageImage {
   position: relative;
   width: 100%;
   max-width: 400px;
 }
 
-.container img {
-  width: 100%;
-  height: auto;
+.AboutPageImage img {
+  width: 241%;
+  height: 250%;
 }
 
-.container .btn {
+.AboutPageImage .btn {
   position: absolute;
-  top: 26%;
-  left: 20%;
+  top: 50%;
+  left: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #fdfdfd;
@@ -76,28 +136,89 @@ h2 {
   font-family: Arial, Helvetica, sans-serif
 }
 
-
-.container .btn:hover {
+.AboutPageImage .btn:hover {
   background-color: rgb(182, 61, 172);
   color: white;
 }
+/* Contact Page Style */
 
+.contactlinks {
+  position: left;
+  width: 30%;
+  padding: 50px 40px;
+  
+
+
+}
 
 /* Blog Page Style */
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(223, 22, 189);
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Blog image */
+.blogimg {
+  background-color: #aaa;
+  width: 95%;
+  padding: 20px 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+  
 }
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
