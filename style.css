@@ -5,14 +5,10 @@ body {
   padding: 0;
 }
 
-
-
 /* Navigation Bar Styling */
 nav ul li a {
   background-color: #358e9d;
   width: 100%;
-  
-
 }
 nav {
   display: flex;
@@ -31,57 +27,22 @@ ul {
   background-color:#358e9d;
 }
 li {
-  /* float: left; */
+  float: left;
 }
 li a {
   display: flex;
   color: rgb(173, 65, 65);
   text-align: center;
   padding: 14px 16px;
+  font-size: 16px; 
   text-decoration: none;
-  border-right: 1px solid pink;
 }
 li a:hover {
   background-color: rgb(216, 119, 119);
 }
 
-/* Mobile View */
-@media only screen and (min-device-width: 220px) and (max-device-width: 767px) { */
-
-/* Mobile Nav bar View */
-
-.logo {
-
-  height: 350px;
-  width: 350px;
-  align-self: center;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-bottom: 5px;
-}
-
-nav ul { */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:stretch;
-  margin: inherit;
-}
-
-nav ul li a { */
-  font-size: 300%;
-  font-family: 'Norwester', sans-serif;
-  color: #E0ECE4;
-  margin: 5px;
-  text-decoration: none;
-  
-}
-
 /*Home Page Style*/
 
-#bkgrndimg {
-  max-width: 100%;
-  height: auto; 
-}
 h1 {
   color: rgb(230, 17, 219);
   font-size: 700%;
@@ -97,10 +58,13 @@ h2 {
   display: flex;
   flex-direction: column;
   Width: 100%;
-  text-align: center;
+  text-align: right;
   color: rgb(230, 17, 219);
   style="text-shadow:1px 1px 0;ß
-
+}
+#bkgrndimg {
+  width: 100%;
+  height: auto;
 }
 
 
@@ -144,10 +108,8 @@ h2 {
   position: left;
   width: 15%;
   padding: 50px 40px;
-  
-
-
 }
+
 body {
   /* font-family: Arial, Helvetica, sans-serif; */
 }
@@ -157,9 +119,9 @@ body {
 }
 
 /* Style inputs */
-input[type=text], select, textarea {
+ input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 12px; */
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -169,28 +131,28 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 20px; */
   border: none;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+background-color: #45a049;
 }
 
 /* Style the container/contact section */
-.container {
+.container { */
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 10px;
+  padding: 10px; */
 }
 
 /* Create two columns that float next to eachother */
 .column {
-  float: left;
+  float: center;
   width: 50%;
   margin-top: 6px;
-  padding: 20px;
+  /* padding: 20px; */ */
 }
 
 /* Clear floats after the columns */
@@ -203,7 +165,7 @@ input[type=submit]:hover {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
-    width: 100%;
+    width: 90%;
     margin-top: 0;
   }
 }
@@ -225,7 +187,7 @@ body {
 /* Header/Blog Title */
 .blogtxt {
   padding: 30px;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   background: white;
 }
@@ -282,7 +244,6 @@ body {
   }
 }
   
-}
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
   .flex-container {
@@ -294,9 +255,7 @@ body {
     
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) { */
   .flex-container {
     width: 100%;
-
-
-
+  
