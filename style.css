@@ -132,7 +132,7 @@ input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
-  */ border: none;
+  border: none;
   cursor: pointer;
 }
 
@@ -142,10 +142,9 @@ input[type=submit]:hover {
 
 /* Style the container/contact section */
 .container {
-  */ border-radius: 5px;
+  border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
-  */
 }
 
 /* Create two columns that float next to eachother */
@@ -153,8 +152,6 @@ input[type=submit]:hover {
   float: center;
   width: 50%;
   margin-top: 6px;
-  /* padding: 20px; */
-  */
 }
 
 /* Clear floats after the columns */
@@ -173,12 +170,6 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
-
-
-
-
-
-
 
 /* Blog Page Style */
 
@@ -258,9 +249,5 @@ body {
     padding: 0px;
 
     flex-wrap: wrap;
-
-
-    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-      */ .flex-container {
-        width: 100%;
+  }
+}
