@@ -27,33 +27,34 @@ h3 {
 nav ul li a {
   background-color: #358e9d;
   width: 100%;
+  align-self: center; 
 }
 
 nav {
-  display: flex;
-  flex-direction: column;
-  width: 100%
+  width: 100%;
+  
 }
 
 .logo {
+  display: block; 
   height: 150px;
   width: 150px;
+  margin-left: auto; 
+  margin-right: auto; 
   margin-top: 5px;
-  margin-bottom: 5px;
-  align-self: center;
 }
 
 ul {
   list-style-type: none;
   background-color: #358e9d;
-}
-
-li {
-  float: left;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
 }
 
 li a {
   display: flex;
+  flex-direction: row; 
   color: rgb(8, 8, 8);
   text-align: center;
   font-size: 20px;
@@ -113,10 +114,9 @@ li a:hover {
   color: white;
 }
 
-
 /* About Page Style to center the image for screen size over 400px */
 @media only screen and (min-width: 400px) {
-  .contpg {
+  .column2 {
     display:block;
     width: 50%;
     margin-left: auto;
@@ -124,7 +124,6 @@ li a:hover {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
-
   }
 
   #jackimg {
@@ -149,8 +148,6 @@ li a:hover {
 
   }
   #jackimg {
-    display: flex;
-    flex-direction: column;
     width: 300px;
   }
   .column1 {
@@ -161,14 +158,9 @@ li a:hover {
     float: right; 
     display: flex;
     flex-direction: column;
-    width: 50%  
+    width: 50%;
   }
 }
-
-
-
-
-
 
 
 /* Contact Page Style */
