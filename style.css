@@ -15,8 +15,13 @@ h1 {
 
 h2 {
   color: rgb(255, 0, 242);
-  font-size: 250%
+  font-size: 250% 
 }
+
+h3 {
+  color: rgb(255, 0, 242);
+}
+
 
 /* Navigation Bar Styling */
 nav ul li a {
@@ -88,27 +93,83 @@ li a:hover {
 
 /* About Page Style */
 
-.AboutPageImage .btn {
-  position: absolute;
-  top: 80%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #fdfdfd;
+#abouthdr {
+  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.btn {
   color: rgb(185, 63, 169);
-  font-size: 20px;
+  font-size: 16px;
   padding: 12px 16px;
-  border: none;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif
 }
 
-.AboutPageImage .btn:hover {
-  background-color: rgb(182, 61, 172);
+ .btn:hover {
+  background-color: rgb(146, 138, 145);
   color: white;
 }
+
+
+/* About Page Style to center the image for screen size over 400px */
+@media only screen and (min-width: 400px) {
+  .contpg {
+    display:block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;  
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+  }
+
+  #jackimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 50%;
+  }
+}
+
+/* About Page Style to center the image for screen size over 642px */
+@media only screen and (min-width: 642px) {
+  .contpg {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;  
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+  }
+  #jackimg {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .column1 {
+    float: left;
+    width: 50%
+  }
+  .column2 {
+    float: right; 
+    display: flex;
+    flex-direction: column;
+    width: 50%  
+  }
+}
+
+
+
+
+
+
 
 /* Contact Page Style */
 
@@ -150,6 +211,7 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
+
 /* Blog Page Style */
 
 /* Header/Blog Title */
@@ -181,3 +243,4 @@ footer {
   background: #ddd;
   margin-top: 20px;
 }
+
