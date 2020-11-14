@@ -1,0 +1,336 @@
+commit 82326b81a82be81bcc6ff6467ceee5beaee2914d
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 22:17:05 2020 +1100
+
+    added SRI
+
+commit 9ea7652166d6c5e5dd3c2ec67b0332742595f8c7
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 21:54:02 2020 +1100
+
+    finish README.md
+
+commit f962d3db7bd731341980e10dbc4e26aa0ee203ef
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 21:42:29 2020 +1100
+
+    moved margin blog page
+
+commit 7252216233b376e3663da1690d121b2eb39fda50
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 20:53:37 2020 +1100
+
+    added references to unsplash photographers
+
+commit 09046f6dad7bc35699471b9fe89b137dc55af5cc
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 20:45:29 2020 +1100
+
+    added comments for readability
+
+commit c6aa1a5193f6b79b4b16afdf0ba764c8e2f40046
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 17:22:14 2020 +1100
+
+    margin right blog pg
+
+commit 157a9884b9e3503efd918252d1b18c10be9f3fea
+Merge: efaa032 72b3f7e
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 17:16:15 2020 +1100
+
+    Merge pull request #9 from jmartinmcg/port8
+    
+    adding padding about me
+
+commit 72b3f7ee1c3043551807e70a5f77d28ae506620e
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 17:15:34 2020 +1100
+
+    adding padding about me
+
+commit efaa0323806146a0cc2f237608d740b2554af8bd
+Merge: ef9bb80 ec96b6f
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 16:39:02 2020 +1100
+
+    Merge pull request #8 from jmartinmcg/port7
+    
+    styling about pg layout
+
+commit ec96b6f647923e73b2dc0d4ea1fa04d997366a6d
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 16:38:26 2020 +1100
+
+    styling about pg layout
+
+commit ef9bb802c6bc660331b8989653156f8db5504eb1
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 15:59:30 2020 +1100
+
+    styling to media screen min size 500px
+
+commit e6a720b652b0afc7ee081b3195fcc7182009e475
+Merge: 8dd2a34 fe09c40
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 14:54:50 2020 +1100
+
+    Merge pull request #7 from jmartinmcg/port6
+    
+    font adj blog pg
+
+commit fe09c40a619e6dfa7215bad433525e02a18aff18
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 14:54:02 2020 +1100
+
+    font adj blog pg
+
+commit 8dd2a341ad7a1621ebaf49bbe9e281fccc65db2c
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 14:46:35 2020 +1100
+
+    moved text onto img fntpg
+
+commit 957fa8d66a81fc56a604a416681437ea55ee5e44
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 14:22:03 2020 +1100
+
+    delete css not referencing to blog pg
+
+commit 5c227396edb1ff5c307a89a6b9a0114a07c2d060
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 14:02:00 2020 +1100
+
+    removing errors
+
+commit 228466df28e13a3361f1cff6032e3384d9f5eb1e
+Merge: ba7e61e afd57f1
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 13:45:39 2020 +1100
+
+    Merge pull request #6 from jmartinmcg/port5
+    
+    adjust to semantic html
+
+commit afd57f19ba49111ec5b0b8fe8f94846c6edf0f0c
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 13:44:43 2020 +1100
+
+    adjust to semantic html
+
+commit ba7e61e54b3597fbe1001768cd286880c7c2428a
+Merge: c47fac6 9717a4b
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 10:57:57 2020 +1100
+
+    Merge pull request #5 from jmartinmcg/port4
+    
+    adding about text
+
+commit 9717a4b69dfcbea06dd3522d28a878b977285975
+Merge: 55d4d6b c47fac6
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 10:57:48 2020 +1100
+
+    Merge branch 'main' into port4
+
+commit 55d4d6be9fa2a2416b0a414ae2868aa29a1beeef
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 10:56:01 2020 +1100
+
+    adding about text
+
+commit c47fac689be7df4f24787d8cc7cb2295b1007907
+Merge: 3feecdc 1c9cd9d
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Fri Nov 13 21:03:59 2020 +1100
+
+    Merge pull request #4 from jmartinmcg/port4
+    
+    removing errors
+
+commit 1c9cd9d6110277fb08b1b44530b0b229d64436ea
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Fri Nov 13 21:02:08 2020 +1100
+
+    removing errors
+
+commit 3feecdc4019400574a31e62199bbf410c454c2d2
+Merge: 600d331 52aaaf8
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Fri Nov 13 17:36:53 2020 +1100
+
+    Merge pull request #3 from jmartinmcg/port4
+    
+    css fixes
+
+commit 52aaaf8e884696f19bdb81e5e844e8a192b59e8f
+Merge: c3ed38e 600d331
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Fri Nov 13 17:36:42 2020 +1100
+
+    Merge branch 'main' into port4
+
+commit c3ed38ee071cb4ba4f46192795d745bab82ee14e
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Fri Nov 13 17:24:06 2020 +1100
+
+    css fixes
+
+commit 600d33157af037244b58fbf1603f38d59638c90a
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Fri Nov 13 16:28:14 2020 +1100
+
+    starting README.md
+
+commit cd4f6e5222ee989b6ae491a4e7138c5d23405c84
+Merge: f860dd9 92e5f14
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Fri Nov 13 15:56:36 2020 +1100
+
+    merged file changes
+
+commit f860dd922e0354d275f6ecd8f6fb919c860e4f30
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Fri Nov 13 14:55:46 2020 +1100
+
+    fixing css on branch
+
+commit 92e5f1423b8863cc92a2e3b62224a3c005e98220
+Merge: a3534a4 5220058
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Thu Nov 12 19:47:25 2020 +1100
+
+    Merge pull request #2 from jmartinmcg/port3
+    
+    add sitemap
+
+commit 52200589db05526cb56ce7e3b62e0bccb7fbbf54
+Merge: 17d8607 a3534a4
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Thu Nov 12 19:46:59 2020 +1100
+
+    Merge branch 'main' into port3
+
+commit 17d8607a157e1af94bc96a8792d20f9922789513
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 12 19:44:04 2020 +1100
+
+    add sitemap
+
+commit a3534a489bee82a030b83865f76ea9f219a39b77
+Merge: 06da7a3 ceb03c7
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Thu Nov 12 14:51:13 2020 +1100
+
+    Merge pull request #1 from jmartinmcg/port2
+    
+    nav bar fix
+
+commit ceb03c7330369e66069673c4015dbb9e8f508e7e
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 12 14:37:25 2020 +1100
+
+    nav bar fix
+
+commit 06da7a31d310e4a2d036596a181525c59784fa60
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 12 14:20:23 2020 +1100
+
+    contact page fixes and new images
+
+commit 7cb14f9f5f3517b075757b0e6db2d30f9f862386
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 12 14:15:38 2020 +1100
+
+    contact page fixes
+
+commit bdbc5a6cf25c8633dd17aa693b853fbb580130c8
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 12 13:47:41 2020 +1100
+
+    added images to blog page
+
+commit c4ea98c4efce8454b8c387b0ae6fd43d4cd99824
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 12 12:41:07 2020 +1100
+
+    add contact form
+
+commit 0ba01e6294a8909a21846e38d5667c3f48e6a6e3
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 12 12:24:22 2020 +1100
+
+    updating contact pg
+
+commit 1ddb294d57670b26182653c23cd07e712866a8b7
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 12 11:29:13 2020 +1100
+
+    updated images and changed blog layout
+
+commit 5ac3a061dabf1ddaefcb3920e18bba12a910fc5c
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 7 20:50:00 2020 +1100
+
+    created comments to order style.css
+
+commit 4343997351c5d1f27b4bc82961eb3f1df36e4051
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 7 15:21:51 2020 +1100
+
+    added favicon to all pages
+
+commit b853ba2e985e7e41f0229e53d48d61e2d9b32c5c
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 7 14:54:28 2020 +1100
+
+    moved images into a folder called assets and changed related code
+
+commit e2f7b8b45d0315f8b200a19f353f9f85a7b18a1e
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 7 14:12:42 2020 +1100
+
+    added linked in and github logo links on contact page
+
+commit 400296bf69ca172783fd2346e3ac0ddbd12229f3
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 7 13:33:25 2020 +1100
+
+    Added CV download to About page and tested CSS styles
+
+commit 1ec01a9143deef04ab2f10cf839b8b66625060bd
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 7 12:57:15 2020 +1100
+
+    connected style.css to pages and added nav bar styling
+
+commit e58a2e6eeaeaaf4c0b34a04ef00c293dba7501fa
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 7 10:15:56 2020 +1100
+
+    changed nav bar to ul for easier formatting
+
+commit 0ec6c3aca054abeb9d3d6ca69fbcc86b1d26024e
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Fri Nov 6 09:51:51 2020 +1100
+
+    changed style file from scss to css
+
+commit 641875a98ffbafe5140a9d1ba507e655581a1bea
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 5 14:10:33 2020 +1100
+
+    mv pages into folder pages
+
+commit 6b7678a206c847374d8ca61a4c621e3ee2b0b348
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 5 14:00:33 2020 +1100
+
+    started home page
+
+commit 2798cf9bf6863510e1e8723b8d074cd210e939bd
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Thu Nov 5 13:10:22 2020 +1100
+
+    initial commit
