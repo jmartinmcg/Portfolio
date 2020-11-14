@@ -22,38 +22,62 @@ ___________
 
 The rest of the features are listed below split by page. 
 
-#### Home Page
+__________________
 
+### Home Page
+
+Nav bar, logo, background image and name. Scroll down has a description and image reference. 
+
+#### Web View
+<img src="assets/Home Pg.png" >
+
+#### Mobile View
 <img src="assets/Home_top.PNG" >
 
-#### Blog Page 
+______________
+
+
+### Blog Page 
 
 3. 'Blog' page has placeholders for blog posts and a link in the footer to redirect the viewer to the top of page. 
 
 See screens for mobile view & responsive view
 
+#### Web View
+<img src="assets/Blog Pg.png" >
+
+#### Mobile View
 <img src="assets/Blog_top.PNG" >
 <img src="assets/Blog_middle.PNG" >
 <img src="assets/Blog_bottom.PNG" >
+
+__________
 
 #### Contact Page
 
 4. 'Contact' page has a form to leave a message.
 5. 'Contact' page has icon links to my Github and LinkedIn accounts.
 
-<img src="assets/Contact_top.PNG" >
+#### Web View
+<img src="assets/Contact Pg.png" >
 
+#### Mobile View
+<img src="assets/Contact_top.PNG" >
 <img src="assets/Contact_bottom.PNG">
+
+___________
 
 #### About Page
 
 6. 'About' page has a downloadable CV and placeholders for recent projects. 
 7. The website is responsive. The elements on the page stretch to the various sizes, so the view remains similar across screens of various sizes. However, the layout on the 'About' page changes layout depending on if it's in mobile view or not. In mobile view there is 1 column that scrolls down. On larger screens this changes to a 2 column view. These style changes are commented in the style.css page 
 
+#### Web View
+<img src="assets/About Pg.png" >
+
+#### Mobile View
 <img src="assets/About_top.PNG" >
-
 <img src="assets/About_bottom.PNG" >
-
 
 _____________
 
@@ -90,6 +114,9 @@ ______________
 
 -----------
 
+#### Accessibility
+
+Accessibility considerations were made in font contrast levels, use of semantic HTML and descriptions and tags in HTML. 
 
 
 
@@ -98,18 +125,6 @@ ______________
 
 
 
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
-<img src=" " >
+
 
 
