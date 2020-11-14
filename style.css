@@ -236,7 +236,6 @@ input[type=submit]:hover {
   font-size: 20px;
   text-align: center;
   background: white;
-  margin-left: 20px;
 }
 
 /* Blog image */
@@ -251,7 +250,6 @@ input[type=submit]:hover {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  margin-left: 20px; 
 }
 
 /* Footer */
@@ -260,6 +258,5 @@ footer {
   text-align: center;
   background: #ddd;
   margin-top: 20px;
-  margin-left: 20px; 
 }
 
