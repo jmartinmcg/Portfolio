@@ -29,10 +29,10 @@ __________________
 Nav bar, logo, background image and name. Scroll down has a description and image reference. 
 
 #### Web View
-<img src="assets/Home Pg.png" >
+<img src="docs/Home Pg.png" >
 
 #### Mobile View
-<img src="assets/Home_top.PNG" >
+<img src="docs/Home_top.PNG" >
 
 ______________
 
@@ -44,12 +44,12 @@ ______________
 See screens for mobile view & responsive view
 
 #### Web View
-<img src="assets/Blog Pg.png" >
+<img src="docs/Blog Pg.png" >
 
 #### Mobile View
-<img src="assets/Blog_top.PNG" >
-<img src="assets/Blog_middle.PNG" >
-<img src="assets/Blog_bottom.PNG" >
+<img src="docs/Blog_top.PNG" >
+<img src="docs/Blog_middle.PNG" >
+<img src="docs/Blog_bottom.PNG" >
 
 __________
 
@@ -59,11 +59,11 @@ __________
 5. 'Contact' page has icon links to my Github and LinkedIn accounts.
 
 #### Web View
-<img src="assets/Contact Pg.png" >
+<img src="docs/Contact Pg.png" >
 
 #### Mobile View
-<img src="assets/Contact_top.PNG" >
-<img src="assets/Contact_bottom.PNG">
+<img src="docs/Contact_top.PNG" >
+<img src="docs/Contact_bottom.PNG">
 
 ___________
 
@@ -73,11 +73,11 @@ ___________
 7. The website is responsive. The elements on the page stretch to the various sizes, so the view remains similar across screens of various sizes. However, the layout on the 'About' page changes layout depending on if it's in mobile view or not. In mobile view there is 1 column that scrolls down. On larger screens this changes to a 2 column view. These style changes are commented in the style.css page 
 
 #### Web View
-<img src="assets/About Pg.png" >
+<img src="docs/About Pg.png" >
 
 #### Mobile View
-<img src="assets/About_top.PNG" >
-<img src="assets/About_bottom.PNG" >
+<img src="docs/About_top.PNG" >
+<img src="docs/About_bottom.PNG" >
 
 _____________
 
@@ -85,7 +85,7 @@ _____________
 
 The website uses a 4 page layout. All pages can be navigated through a nav bar at the top of the website, underneath the logo. If I were to continue the website the sitemap would change to include; subpages for links to blog posts on the 'Blog' page, project posts on the 'About' page, message form links on the 'contact' page. 
 
-<img src="assets/sitemap.png">
+<img src="docs/sitemap.png">
 
 
 ___________
