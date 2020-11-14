@@ -1,3 +1,34 @@
+commit d7df326e33957060a78104f2e090f93a6ade1873
+Merge: d1f1dfb 3c0743a
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 23:47:55 2020 +1100
+
+    Merge branch 'main' of https://github.com/jmartinmcg/Portfolio into main
+
+commit d1f1dfb5addd35ac3b9d38fde605c0c0dd4768e9
+Author: jmartinmcg <gcas022015@coderacademy.edu.au>
+Date:   Sat Nov 14 23:47:22 2020 +1100
+
+    cleaning up folders to submit
+
+commit 3c0743ac32bc8ae3f41cf3d1cdf5a81f3a32590f
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 23:36:27 2020 +1100
+
+    Rename log.txt to gitlog.txt
+
+commit 7c56341dbda8b9a5515a9d5f4b326f47f14b6b0a
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 23:33:34 2020 +1100
+
+    Add files via upload
+
+commit 8f1fb7a16e650d777822d5164101ce44000fc9f6
+Author: Jack Martin <72953346+jmartinmcg@users.noreply.github.com>
+Date:   Sat Nov 14 22:23:06 2020 +1100
+
+    Add files via upload
+
 commit 82326b81a82be81bcc6ff6467ceee5beaee2914d
 Author: jmartinmcg <gcas022015@coderacademy.edu.au>
 Date:   Sat Nov 14 22:17:05 2020 +1100
